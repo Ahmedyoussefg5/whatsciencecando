@@ -1,0 +1,81 @@
+PODS:
+  - Agrume (4.0.1)
+  - Alamofire (4.5.1)
+  - CZPicker (0.4.3)
+  - FSCalendar (2.7.9)
+  - IQKeyboardManagerSwift (5.0.0)
+  - Kingfisher (4.10.0)
+  - OneSignal (2.5.7)
+  - PDFReader (2.5.1)
+  - PopupDialog (0.6.1)
+  - Socket.IO-Client-Swift (13.0.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.2)
+  - SwiftValidator (4.0.0)
+  - SwiftyJSON (4.0.0)
+  - YouTubePlayer (0.4.0)
+
+DEPENDENCIES:
+  - Agrume
+  - Alamofire
+  - CZPicker
+  - FSCalendar
+  - IQKeyboardManagerSwift (= 5.0.0)
+  - Kingfisher (from `https://github.com/onevcat/Kingfisher.git`)
+  - OneSignal
+  - PDFReader
+  - PopupDialog
+  - Socket.IO-Client-Swift
+  - SwiftValidator (from `https://github.com/jpotts18/SwiftValidator.git`, branch `master`)
+  - SwiftyJSON
+  - YouTubePlayer
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Agrume
+    - Alamofire
+    - CZPicker
+    - FSCalendar
+    - IQKeyboardManagerSwift
+    - OneSignal
+    - PDFReader
+    - PopupDialog
+    - Socket.IO-Client-Swift
+    - Starscream
+    - SwiftyJSON
+    - YouTubePlayer
+
+EXTERNAL SOURCES:
+  Kingfisher:
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftValidator:
+    :branch: master
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+CHECKOUT OPTIONS:
+  Kingfisher:
+    :commit: bf63fa8fe4861e8d02c1a9468e00823a81b4743e
+    :git: https://github.com/onevcat/Kingfisher.git
+  SwiftValidator:
+    :commit: c0ee801a2d107eca5f748d07932b449666d8effd
+    :git: https://github.com/jpotts18/SwiftValidator.git
+
+SPEC CHECKSUMS:
+  Agrume: 7fcd54cd95653fb0adf6e9b6fad30ece6c5fa273
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  CZPicker: 55aa1751ea26e209814552da1a9a08cba8bbf72a
+  FSCalendar: a04b09f16f811bc92e82f3cf852a15225233b9d5
+  IQKeyboardManagerSwift: 3f340202ebe1a7076279b9b9b3c817243ddb3aab
+  Kingfisher: 972ed6bd5c9d7d20cc9da407dd7251284984198e
+  OneSignal: 5be2eb3394e654b7467a190fe4d58147fc46bb78
+  PDFReader: 2c4a845d0560f33221cf911516e3b700967680f6
+  PopupDialog: 1bdd1efbfb49eb619a280faa9a3bbaac76f94120
+  Socket.IO-Client-Swift: d187c14afd9f3a8baf908e6e09ca8e77420dadff
+  Starscream: b512c62f6706421221b5ceb2ba01a9f58aca5bea
+  SwiftValidator: 25ded5ca1f10c05adf57f6ac82a72d28ac8d91af
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  YouTubePlayer: 028451f6772f372d4759866db99824c676ac1473
+
+PODFILE CHECKSUM: bf7544a79fc0d17bf3506087e978a0236f188985
+
+COCOAPODS: 1.5.3

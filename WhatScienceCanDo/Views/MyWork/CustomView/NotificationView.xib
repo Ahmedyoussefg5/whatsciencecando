@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NotificationView" customModule="WhatScienceCanDo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AstraLogo" translatesAutoresizingMaskIntoConstraints="NO" id="c2T-Hk-dDV">
+                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFw-hq-eri">
+                    <rect key="frame" x="18" y="18" width="12" height="12"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="c2T-Hk-dDV" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5Ts-X5-xun"/>
+                <constraint firstItem="NFw-hq-eri" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.4" id="8SX-Je-GK5"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="NFw-hq-eri" secondAttribute="bottom" id="GVk-8C-J7Y"/>
+                <constraint firstItem="NFw-hq-eri" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.4" id="Tpd-Qv-k9h"/>
+                <constraint firstAttribute="trailing" secondItem="c2T-Hk-dDV" secondAttribute="trailing" id="eiN-VA-iKl"/>
+                <constraint firstAttribute="bottom" secondItem="c2T-Hk-dDV" secondAttribute="bottom" id="fRl-pQ-vp3"/>
+                <constraint firstItem="c2T-Hk-dDV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jhF-a0-o7o"/>
+                <constraint firstAttribute="trailing" secondItem="NFw-hq-eri" secondAttribute="trailing" id="w6z-fb-BMD"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="NotificationCounter" destination="NFw-hq-eri" id="XVA-0G-PLm"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="AstraLogo" width="24" height="24"/>
+    </resources>
+</document>
